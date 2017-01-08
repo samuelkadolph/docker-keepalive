@@ -1,6 +1,9 @@
 ## samuelkadolph/keepalive
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/samuelkadolph/keepalive.svg)](https://hub.docker.com/r/samuelkadolph/keepalive/) [![Docker Stars](https://img.shields.io/docker/stars/samuelkadolph/keepalive.svg)](https://hub.docker.com/r/samuelkadolph/keepalive/) [![LICENSE](https://img.shields.io/github/license/samuelkadolph/docker-keepalive.svg)](https://github.com/samuelkadolph/docker-keepalive/blob/master/LICENSE)
+[![](https://images.microbadger.com/badges/version/samuelkadolph/keepalive.svg)](https://hub.docker.com/r/samuelkadolph/keepalive/tags/)
+[![](https://img.shields.io/docker/pulls/samuelkadolph/keepalive.svg)](https://hub.docker.com/r/samuelkadolph/keepalive/ "Docker Pulls")
+[![](https://img.shields.io/docker/stars/samuelkadolph/keepalive.svg)](https://hub.docker.com/r/samuelkadolph/keepalive/ "Docker Stars")
+[![](https://img.shields.io/github/license/samuelkadolph/docker-keepalive.svg)](https://github.com/samuelkadolph/docker-keepalive/blob/master/LICENSE "MIT License")
 
 Simple docker container that does a GET request to a URL every so often. Ideal for keeping a Heroku instance alive.
 
