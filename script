@@ -1,0 +1,11 @@
+#!/bin/sh
+
+delay=${DELAY:-300}
+url=${URL:-https://www.google.com/}
+
+while true; do
+  echo -n "Hitting $url - "
+  curl --head --no-buffer --silent "$url" | head -n 1
+  echo "Sleeping for $delay seconds"
+  sleep $delay
+done
