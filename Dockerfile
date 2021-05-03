@@ -1,4 +1,5 @@
 FROM alpine:latest
+
 MAINTAINER samuel@kadolph.com
 
 ARG BUILD_DATE
